@@ -1,0 +1,13 @@
+/**
+ * Created: 05/09/2019
+ *
+ * @package   PHPAISS_Whatsappshare
+ * @category  PHPAISS
+ * @author    Yassine AISSAOUI
+ * @copyright PHPAISS Magento 2
+ */
+
+.phpaiss-tab div strong {background: transparent url('../images/phpaiss-logo.png') no-repeat scroll left center;display: inline-block;  width: 100%;height: 65px;}
+.whatsapp_share a {width: 100%;display: block;height: inherit;font-size: 0px;}
+.whatsapp_small {background: url("../images/whatsappsmall.png") no-repeat scroll 0 0 !important;height:48px;width: 48px;}
+.whatsapp_medium {background:url("../images/whatsappmedium.png") no-repeat scroll 0 0 !important;width:167px;height:42px;}

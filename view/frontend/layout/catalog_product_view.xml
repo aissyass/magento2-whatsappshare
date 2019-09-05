@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ /**
+ * Created: 05/09/2019
+ *
+ * @package   PHPAISS_CustomLog
+ * @category  PHPAISS
+ * @author    Yassine AISSAOUI
+ * @copyright PHPAISS Magento 2
+ */
+ -->
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+		<css src="PHPAISS_Whatsappshare::css/styles.css" />
+	</head>
+	<body>
+		<referenceContainer name="alert.urls">
+			<block class="PHPAISS\Whatsappshare\Block\Whatsappshare" name="whatsapp.share" as="whatsappshare" after="-" template="catalog/product/view/whatsappshare.phtml" />
+		</referenceContainer>
+	</body>
+</page>

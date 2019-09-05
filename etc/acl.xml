@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<!--
+ /**
+ * Created: 05/09/2019
+ *
+ * @package   PHPAISS_CustomLog
+ * @category  PHPAISS
+ * @author    Yassine AISSAOUI
+ * @copyright PHPAISS Magento 2
+ */
+ -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Magento_Backend::stores">
+                    <resource id="Magento_Backend::stores_settings">
+                        <resource id="Magento_Config::config">
+                            <resource id="PHPAISS_Whatsappshare::whatsappshare_configuration" title="WhatsApps Share Setting" sortOrder="80" />
+                        </resource>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

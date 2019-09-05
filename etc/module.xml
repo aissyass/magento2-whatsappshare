@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ /**
+ * Created: 05/09/2019
+ *
+ * @package   PHPAISS_Whatsappshare
+ * @category  PHPAISS
+ * @author    Yassine AISSAOUI
+ * @copyright PHPAISS Magento 2
+ */
+ -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+	<module name="PHPAISS_Whatsappshare" setup_version="2.0.0">
+		<sequence>
+			<module name="Magento_Catalog"/>
+		</sequence>
+	</module>
+</config>
